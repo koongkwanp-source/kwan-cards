@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>앱에서 올릴 릴스</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#16181d;--sub:#6b7280;--accent:#e1306c}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#1a1d23;--ink:#eceef2;--sub:#9aa1ad}}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+h1{font-size:20px;margin:4px 0 8px}
+.how{color:var(--sub);font-size:14px;line-height:1.6;margin:0 0 16px}
+.card{background:var(--card);border-radius:14px;padding:14px;margin:0 0 16px;
+box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.meta{font-size:14px;font-weight:600;margin:0 0 10px;line-height:1.4}
+video{display:block;width:100%;max-height:70vh;border-radius:10px;background:#000}
+.row{display:flex;gap:8px;margin:10px 0}
+.btn{flex:1;display:inline-flex;align-items:center;justify-content:center;min-height:44px;
+border:0;border-radius:10px;background:var(--accent);color:#fff;font-size:15px;font-weight:600;
+text-decoration:none;font-family:inherit;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+pre{white-space:pre-wrap;word-break:break-word;font-family:inherit;font-size:14px;line-height:1.6;
+background:var(--bg);border-radius:10px;padding:12px;margin:0}
+.empty{color:var(--sub)}
+</style></head><body>
+<h1>앱에서 올릴 릴스</h1>
+<p class="how">음악은 비어 있습니다. ① 영상 저장 → ② 인스타 앱 ＋ → 릴스 → 저장한 영상 → 「오디오」에서 음원 고르기
+→ ③ 본문 복사해 붙여 넣고 올리기. 본문을 그대로 두면 다음 릴스가 생길 때 이 목록에서 빠집니다.
+영상은 3일이 지나면 지워집니다.</p>
+<section class="card"><div class="meta">10/08 20:15 · 현대차 주가 한 달 새 15.71% 하락, 원화 강세 &quot;4분기에 완전히 반영&quot;된다던데?</div><video controls playsinline preload="metadata" src="20261008-111530-2026-10-08-4d63968f-reel-reel.mp4"></video><div class="row"><a class="btn" href="20261008-111530-2026-10-08-4d63968f-reel-reel.mp4" download>영상 저장</a><a class="btn ghost" href="20261008-111530-2026-10-08-4d63968f-reel-reel.mp4" target="_blank" rel="noopener">영상 열기</a><button class="btn" data-copy="c0">본문 복사</button></div><pre id="c0">현대차 주가가 한 달 새 15.71% 내렸어요. 파업과 원화 강세가 겹쳤습니다.
+
+✔️ 파업 생산 차질 약 5만 5,000대 (NH투자증권 추정)
+✔️ 원/달러 월평균 7월 1,490원 → 8월 1,404원
+
+📌 4분기에 확인할 세 가지는 프로필 링크 블로그에 정리해 뒀어요.
+저장해 두고 3분기 실적 발표 때 꺼내 보세요!
+
+#현대차 #현대차주가 #원화강세 #자동차주 #주식공부 #환율 #콰니</pre></section>
+<script>
+document.querySelectorAll("button[data-copy]").forEach(function (button) {
+  button.addEventListener("click", function () {
+    var text = document.getElementById(button.dataset.copy).innerText;
+    var done = function () { button.textContent = "복사했어요"; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { pick(button); });
+    } else { pick(button); }
+  });
+});
+function pick(button) {
+  var range = document.createRange();
+  range.selectNodeContents(document.getElementById(button.dataset.copy));
+  var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+  button.textContent = "선택했어요 — 길게 눌러 복사";
+}
+</script>
+</body></html>
