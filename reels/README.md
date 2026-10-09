@@ -8,9 +8,9 @@
 
 사진·영상은 3일이 지나면 지워집니다.
 
-## 10/09 09:00 · 토스증권 김규빈 연임, 금감원 경영유의 5건 중 내 계좌에 닿는 3가지
+## 10/09 10:23 · 토스증권 김규빈 연임, 금감원 경영유의 5건 중 내 계좌에 닿는 3가지
 
-[사진 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261009-000009-2026-10-08-CEO-ff650a55-reel.jpg)
+[사진 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261009-012332-2026-10-08-CEO-ff650a55-reel.jpg)
 
 ```text
 토스증권 첫 연임 CEO, 첫 과제는 성장이 아니라 윤리·준법이었어요.
