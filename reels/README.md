@@ -8,9 +8,9 @@
 
 사진·영상은 올렸든 안 올렸든 3일이 지나면 지워집니다.
 
-## 10/10 11:55 · 파킹형 ETF에 9월 2.9조, 박스권 코스피 대기자금 언제 움직일까?
+## 10/10 12:27 · 파킹형 ETF에 9월 2.9조, 박스권 코스피 대기자금 언제 움직일까?
 
-[사진 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261010-025532-2026-10-10-ETF-8ce167a7-reel.jpg)
+[사진 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261010-032733-2026-10-10-ETF-d794296b-reel.jpg)
 
 ```text
 코스피는 9월 한 달 0.26% 제자리인데, ETF에 들어온 돈의 84%는 파킹형 ETF로 갔어요.
