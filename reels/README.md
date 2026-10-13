@@ -9,9 +9,9 @@
 
 사진·영상은 올렸든 안 올렸든 3일이 지나면 지워집니다.
 
-## 10/13 10:08 · 미국증시 마감, 업종 8개 올랐는데 S&P500은 빠졌다고? · 움직이는 견본
+## 10/13 10:44 · 미국증시 마감, 업종 8개 올랐는데 S&P500은 빠졌다고? · 움직이는 견본
 
-[영상 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261013-010808-motion.mp4)
+[영상 받기](https://raw.githubusercontent.com/koongkwanp-source/kwan-cards/main/reels/20261013-014404-motion.mp4)
 
 ```text
 간밤 미장, 지수는 빠졌다는데 내 계좌는 괜찮았던 분 꼭 저장해 두세요👀
